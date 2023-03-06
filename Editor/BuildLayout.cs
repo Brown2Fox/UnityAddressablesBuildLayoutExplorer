@@ -498,7 +498,7 @@ namespace Oddworm.EditorFramework
                     // Size from Streamed Data: 170.68KB
                     // File Index: 0
                     // Addressable Name: Assets/art/debug/debug_checkerboard.png
-                    entry = entry.Replace(", ", "; ");
+                    line = line.Replace(", ", "; ");
                     foreach (var entry in line.Split(new[] { ';' }, System.StringSplitOptions.RemoveEmptyEntries))
                     {
                         // entry contains:

@@ -499,6 +499,7 @@ namespace Oddworm.EditorFramework
                     // File Index: 0
                     // Addressable Name: Assets/art/debug/debug_checkerboard.png
                     line = line.Replace(", ", "; ");
+                    line = line.Replace(",", ".");
                     foreach (var entry in line.Split(new[] { ';' }, System.StringSplitOptions.RemoveEmptyEntries))
                     {
                         // entry contains:
